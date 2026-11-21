@@ -1,0 +1,3 @@
+Select-String -Path ".\out.js" -Pattern "apiBaseUrl|Authorization|Bearer|accessToken|refreshToken|SecureStore" *> "results/API.log"
+Select-String -Path ".\out.js" -Pattern "AnnouncementsScreen|StudentScreen|ProfileScreen|LoginScreen|Dashboard" *> "results/Function.log"
+Select-String -Path ".\out.js" -Pattern "axios|fetch\(|baseURL|interceptors|POST|GET" *> "results/Network.log"

@@ -1,0 +1,150 @@
+﻿            r2 = {'query': null};
+            r1 = {'type': null};
+            r4 = a0;
+            r1[0] = r4;
+            r2[0] = r1;
+            r1 = '/categories';
+            r0 = undefined;
+            r1 = r3.bind(r0)(r1, r2);
+            return r1;
+        };
+        r5['fetchCategories'] = r4;
+        r4 = function() { // Original name: fetchAppConfig, environment: r2
+            r1 = _closure0_slot1;
+            r3 = r1.apiRequest;
+            r2 = '/system/config';
+            r0 = undefined;
+            r1 = {'anonymous': true};
+            r1 = r3.bind(r0)(r2, r1);
+            return r1;
+        };
+        r5['fetchAppConfig'] = r4;
+        r4 = function() { // Original name: fetchHomeBanners, environment: r2
+            r1 = _closure0_slot1;
+            r2 = r1.apiRequest;
+            r1 = '/banners';
+            r0 = undefined;
+            r1 = r2.bind(r0)(r1);
+            return r1;
+        };
+        r5['fetchHomeBanners'] = r4;
+        r4 = function() { // Original name: fetchParkingLots, environment: r2
+            r1 = _closure0_slot1;
+            r2 = r1.apiRequest;
+            r1 = '/parking-lots';
+            r0 = undefined;
+            r1 = r2.bind(r0)(r1);
+            return r1;
+        };
+        r5['fetchParkingLots'] = r4;
+        r4 = function() { // Original name: fetchMe, environment: r2
+            r1 = _closure0_slot1;
+            r2 = r1.apiRequest;
+            r1 = '/auth/me';
+            r0 = undefined;
+            r1 = r2.bind(r0)(r1);
+            return r1;
+        };
+        r5['fetchMe'] = r4;
+        r4 = function(a0, a1) { // Original name: logoutSession, environment: r2
+            r1 = _closure0_slot1;
+            r3 = r1.apiRequest;
+            r2 = {'method': 'POST', 'body': null, 'anonymous': true};
+            r1 = {'refresh_token': null, 'push_token': null};
+            r4 = a0;
+            r1[0] = r4;
+            r4 = a1;
+            r1[1] = r4;
+            r2[1] = r1;
+            r1 = '/auth/logout';
+            r0 = undefined;
+            r1 = r3.bind(r0)(r1, r2);
+            return r1;
+        };
+        r5['logoutSession'] = r4;
+        r4 = function(a0) { // Original name: registerDevice, environment: r2
+            r1 = _closure0_slot1;
+            r3 = r1.apiRequest;
+            r2 = {'method': 'POST', 'body': null};
+            r1 = a0;
+            r2[1] = r1;
+            r1 = '/devices';
+            r0 = undefined;
+            r1 = r3.bind(r0)(r1, r2);
+            return r1;
+        };
+        r5['registerDevice'] = r4;
+        r4 = function(a0) { // Original name: unregisterDevice, environment: r2
+            r1 = _closure0_slot1;
+            r3 = r1.apiRequest;
+            r2 = {'method': 'DELETE', 'body': null};
+            r1 = {'push_token': null};
+            r4 = a0;
+            r1[0] = r4;
+            r2[1] = r1;
+            r1 = '/devices';
+            r0 = undefined;
+            r1 = r3.bind(r0)(r1, r2);
+            return r1;
+        };
+        r5['unregisterDevice'] = r4;
+        r4 = function() { // Original name: fetchAcademic, environment: r2
+            r1 = _closure0_slot1;
+            r2 = r1.apiRequest;
+            r1 = '/me/academic';
+            r0 = undefined;
+            r1 = r2.bind(r0)(r1);
+            return r1;
+        };
+        r5['fetchAcademic'] = r4;
+        r4 = function() { // Original name: fetchCourses, environment: r2
+            r1 = _closure0_slot1;
+            r2 = r1.apiRequest;
+            r1 = '/me/courses';
+            r0 = undefined;
+            r1 = r2.bind(r0)(r1);
+            return r1;
+        };
+        r5['fetchCourses'] = r4;
+        r4 = function() { // Original name: fetchFinance, environment: r2
+            r1 = _closure0_slot1;
+            r2 = r1.apiRequest;
+            r1 = '/me/finance';
+            r0 = undefined;
+            r1 = r2.bind(r0)(r1);
+            return r1;
+        };
+        r5['fetchFinance'] = r4;
+        r4 = function() { // Original name: fetchAttendance, environment: r2
+            r1 = _closure0_slot1;
+            r2 = r1.apiRequest;
+            r1 = '/me/attendance';
+            r0 = undefined;
+            r1 = r2.bind(r0)(r1);
+            return r1;
+        };
+        r5['fetchAttendance'] = r4;
+        r4 = function() { // Original name: fetchWarning, environment: r2
+            r1 = _closure0_slot1;
+            r2 = r1.apiRequest;
+            r1 = '/me/warning';
+            r0 = undefined;
+            r1 = r2.bind(r0)(r1);
+            return r1;
+        };
+        r5['fetchWarning'] = r4;
+        r4 = function(a0) { // Original name: fetchTimetable, environment: r2
+            r1 = _closure0_slot1;
+            r3 = r1.apiRequest;
+            r2 = {'query': null};
+            r1 = {'week': null};
+            r4 = a0;
+            r1[0] = r4;
+            r2[0] = r1;
+            r1 = '/me/timetable';
+            r0 = undefined;
+            r1 = r3.bind(r0)(r1, r2);
+            return r1;
+        };
+        r5['fetchTimetable'] = r4;
+        r4 = function() { // Original name: fetchExamSchedule, environment: r2
